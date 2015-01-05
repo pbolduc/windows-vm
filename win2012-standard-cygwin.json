@@ -81,7 +81,7 @@
       "ssh_username": "vagrant",
       "ssh_password": "vagrant",
       "ssh_wait_timeout": "10000s",
-      "switch_name": "Virtual WLAN",
+      "switch_name": "",
       "floppy_files": [
         "floppy/win2012-standard/Autounattend.xml",
         "floppy/00-run-all-scripts.cmd",
@@ -93,12 +93,12 @@
         "floppy/cygwin.sh",
         "floppy/passwordchange.bat",
         "floppy/cygwin.bat",
-		"floppy/z-install-integration-services.bat",
+        "floppy/z-install-integration-services.bat",
         "floppy/zz-start-sshd.cmd",
         "floppy/oracle-cert.cer",
-		"floppy/zzzz-shutdown.bat"
+        "floppy/zzzz-shutdown.bat"
       ],
-    }	
+    }
   ],
   "provisioners": [
     {
