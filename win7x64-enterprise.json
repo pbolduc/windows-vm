@@ -85,7 +85,7 @@
       "ssh_password": "vagrant",
       "ssh_wait_timeout": "10000s",
       "disk_size": 40960,
-      "switch_name": "Virtual WLAN",
+      "switch_name": "",
       "floppy_files": [
         "floppy/win7x64-enterprise/Autounattend.xml",
         "floppy/00-run-all-scripts.cmd",
