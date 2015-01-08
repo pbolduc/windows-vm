@@ -96,7 +96,8 @@
         "floppy/z-install-integration-services.bat",
         "floppy/zz-start-sshd.cmd",
         "floppy/zzzz-shutdown.bat"
-      ]
+      ],
+      "shutdown_command": "{{ user `shutdown_command`}}"
     }
   ],
   "provisioners": [

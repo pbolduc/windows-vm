@@ -112,6 +112,7 @@
       "ssh_password": "vagrant",
       "ssh_wait_timeout": "10000s",
       "switch_name": "",
+	  "product_key": "C2N98-D4MRP-J4MFT-JPG7M-FGB86",
       "floppy_files": [
         "floppy/win81x64-enterprise/Autounattend.xml",
         "floppy/00-run-all-scripts.cmd",
@@ -125,7 +126,8 @@
         "floppy/zz-start-sshd.cmd",
         "floppy/oracle-cert.cer",
         "floppy/zzzz-shutdown.bat"
-      ]
+      ],
+      "shutdown_command": "{{ user `shutdown_command`}}"
     }	
   ],
   "provisioners": [
